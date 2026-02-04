@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Halaman Tanpa Css</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+
+
+</head>
+<body class="bg-Gray-100 font-sans">
+    <header>
+    <nav class="bg-slate-700 text-white fixed w-full top-0 z-50">
+<div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+<div class="text-xl font-bold">
+BrandKita
+</div>
+<button id="menu-btn" class="md:hidden">
+<span class="material-symbols-outlined">
+menu
+</span>
+</button>
+<!-- Menu tampilan website -->
+<ul class="hidden md:flex gap-6">
+<li><a href="#home" class="hover:text-blue-400">Home</a></li>
+<li><a href="#about" class="hover:text-blue-400">About Us</a></li>
+<li><a href="#portfolio" class="hover:text-blue-400">Portofolio</a></li>
+<li><a href="#contact" class="hover:text-blue-400">Contact</a></li>
+<li>
+    <a href="data.html" class="bg-blue-600 hover:bg-blue-500 active:bg-blue-700 text-white px-6 py-2 rounded-lg font-semibold transition">Login</a>
+</li>
+</ul>
+</div>
+<!-- Menu tampilan mobile -->
+<div id="menu" class="hidden md:hidden bg-slate-700 px-6 pb-4">
+<ul class="flex flex-col gap-4 text-center">
+<li><a href="#home" class="hover:text-blue-400">Home</a></li>
+<li><a href="#about" class="hover:text-blue-400">About Us</a></li>
+<li><a href="#portfolio" class="hover:text-blue-400">Portofolio</a></li>
+<li><a href="#contact" class="hover:text-blue-400">Contact</a></li>
+<li>
+    <a href="data.html" class="bg-blue-600 hover:bg-blue-500 active:bg-blue-700 text-white px-6 py-2 rounded-lg font-semibold transition">Login</a>
+</li>
+</ul>
+</div>
+</nav>
+    </header>
+
+    <section id="hero" class="bg-[url(img/meeting.jpg)] bg-cover relative min-h-[80vh] flex flex-col justify-center items-center text-center px-4">
+         <div class="absolute inset-0 bg-black/70"></div>
+         <div class="relative 1-10">
+        <h1 class="text-3xl sm:text-4xl md:text-6xl font-extrabold text-gray-50 mb-4"> Selamat datang di website kami </h1>
+        <p class="text-gray-50"> Halaman ini adalah halaman utama website perusahaan </p>
+            <br>
+        <a href="#portofolio" class="bg-slate-600 hover:bg-slate-700 text-white px-8 py-3 rounded-lg font-semibold">
+            Lihat portofolio
+        </a>
+        <div class="mt-8 flex flex-wrap justify-center gap-6 text-sm text-white">
+            <div>
+                <span class="font-bold text-white">50</span> project Selesai
+            </div>
+            <div>
+                <span class="font-bold text-white">18</span> Tahun
+            </div>
+            <div>
+                <span class="font-bold text-white">3</span> Client
+            </div>
+        </div>
+    </div>
+    </section>
+    <br>
+    
+   <section id="about" class="px-6 py-16 bg-white">
+        <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+
+
+            <!-- KONTEN UTAMA -->
+            <div>
+                <h2 class="text-3xl font-bold mb-4">About Us</h2>
+
+
+                <p class="text-gray-700 mb-4">
+                    Kami adalah perusahaan digital yang bergerak di bidang pengembangan website dan aplikasi berbasis
+                    web
+                    dengan fokus pada kualitas, performa, dan tampilan modern.
+                </p>
+
+
+                <p class="text-gray-700 mb-4">
+                    Dengan pengalaman dalam membangun berbagai jenis website, mulai dari company profile, landing page,
+                    hingga web application, kami berkomitmen untuk memberikan solusi digital yang efektif dan efisien.
+                </p>
+
+
+                <p class="text-gray-700">
+                    Kami percaya bahwa desain yang rapi, user experience yang baik, dan teknologi yang tepat dapat
+                    membantu
+                    bisnis berkembang lebih cepat di era digital.
+                </p>
+            </div>
+
+
+            <!-- KONTEN PENDUKUNG -->
+            <div class="space-y-6">
+
+
+                <!-- VISI -->
+                <div class="bg-gray-100 p-8 rounded-xl shadow">
+                    <h3 class="text-xl font-semibold mb-2">Visi Kami</h3>
+                    <p class="text-gray-600 mb-3">
+                        Menjadi partner digital terpercaya bagi bisnis dan individu dalam membangun kehadiran online
+                        yang
+                        kuat.
+                    </p>
+                    <p class="text-gray-600">
+                        Kami terus mengikuti perkembangan teknologi untuk memastikan setiap solusi yang kami berikan
+                        selalu
+                        relevan, aman, dan mudah digunakan.
+                    </p>
+                </div>
+
+
+                <!-- VALUE -->
+                <div class="bg-gray-100 p-8 rounded-xl shadow">
+                    <h3 class="text-xl font-semibold mb-4">Nilai yang Kami Pegang</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li>✔ Desain modern & responsif</li>
+                        <li>✔ Kode bersih dan terstruktur</li>
+                        <li>✔ Fokus pada user experience</li>
+                        <li>✔ Mudah dikembangkan di masa depan</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <section class="px-6 py-16 bg-gray-100">
+        <h2 class="text-3xl font-bold text-center mb-10">Layanan Kami</h2>
+
+
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+
+
+            <!-- Web Development -->
+            <div class="bg-white p-8 rounded-xl shadow transition hover:shadow-xl hover:-translate-y-1">
+                <div class="w-12 h-12 mb-4 flex items-center justify-center rounded-lg bg-blue-100 text-blue-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Web Development</h3>
+                <p class="text-gray-600">
+                    Pembuatan website cepat, aman, dan responsif sesuai kebutuhan bisnis.
+                </p>
+            </div>
+
+
+            <!-- UI UX -->
+            <div class="bg-white p-8 rounded-xl shadow transition hover:shadow-xl hover:-translate-y-1">
+                <div class="w-12 h-12 mb-4 flex items-center justify-center rounded-lg bg-purple-100 text-purple-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9.75 17L3 21l4-7.25M14.25 17L21 21l-4-7.25M12 3v10" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">UI / UX Design</h3>
+                <p class="text-gray-600">
+                    Desain antarmuka yang nyaman digunakan dan meningkatkan konversi.
+                </p>
+            </div>
+
+
+            <!-- Maintenance -->
+            <div class="bg-white p-8 rounded-xl shadow transition hover:shadow-xl hover:-translate-y-1">
+                <div class="w-12 h-12 mb-4 flex items-center justify-center rounded-lg bg-green-100 text-green-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 8v4l3 3M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Maintenance</h3>
+                <p class="text-gray-600">
+                    Perawatan dan pengembangan berkelanjutan untuk website Anda.
+                </p>
+            </div>
+
+
+        </div>
+    </section>
+             
+    
+     <section id="portofolio" class="px-6 py-16 bg-gray-100">
+          <h2 class="text-3xl font-bold text-center mb-18">Portofolio Kami</h2>
+          <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <!-- card -->
+             <div class="bg-white rounded-xl shadow overflow-hidden transition hover:shadow-xl hover:-translate-y-1">
+                <img src="img/portofolio.webp" alt="company profile website" class="w-full h-45 object-cover">
+
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Company Profile</h3>
+                    <p class="text-gray-600 mb-3"> Design Company Profile </p>
+
+                    <p class="text-sm text-gray-600"> Tech : 
+                        <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-blue-400 inset-ring inset-ring-blue-400/30">Figma</span>
+                    </p>
+
+             </div>
+          </div>
+     </section>
+
+    <section id="contact" class="px-6 py-16 bg-white">
+        <h2 class="text-3xl font-bold text-center mb-10">Kontak Kami</h2>
+          <form name="nameForm" onsubmit="return validateForm()" method="post" class="max-w-xl mx-auto bg-gray-100 p-8 rounded-xl shadow space-y-4">
+            <input type="text" name="nama" id="nama" placeholder="Nama" class="w-full px-4 py-3 rounded-lg border focus:ooutline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200">
+            <input type="text" name="email" id="email" placeholder="Email" class="w-full px-4 py-3 rounded-lg border focus:ooutline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200">
+            
+            <textarea name="pesan" id="pesan" placeholder="Pesan" rows="4" class="w-full px-4 py-3 rounded-lg border focus:ooutline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200"></textarea>
+            <button type="submit" class="w-full bg-slate-600 hover:bg-slate-500 active:bg-blue-700 text-white py-3 rounded-lg font-semibold transtion">Kirim Pesan</button>
+            
+          </form>
+     </section>
+               
+
+    
+    <footer class="bg-slate-700  text-white text-center p-6">
+        <p>&copy;2026 Brandkita. Semua hak Dilindungi.</p>
+    </footer>
+
+    <script>
+        const btn = document.getElementById('menu-btn');
+        const menu = document.getElementById('menu');
+
+        btn.addEventListener('click' , () => {
+            menu.classList.toggle('hidden');
+        })
+    </script>
+     
+    <script>
+        function validateForm() {
+            let nama = document.forms["nameForm"]["nama"].value;
+            let email = document.forms["nameForm"]["email"].value;
+            let pesan = document.forms["nameForm"]["pesan"].value;
+            
+            if (nama == "") {
+                alert("Kolom nama harus diisi");
+                return false;
+            }
+            if (email == "") {
+                alert("Kolom email harus diisi");
+                return false;
+            }
+            if (pesan == "") {
+                alert("Kolom pesan harus diisi");
+                return false;
+            }
+        }
+    </script>
+ <script>
+    document.forms["nameForm"].addEventListener("submit", function(e) {
+        if(validateForm() === false ) {
+            e.preventDefault();
+            return;
+        }
+
+        e.preventDefault();
+
+        const nama = document.forms["nameForm"]["nama"].value;
+        const email = document.forms["nameForm"]["email"].value;
+        const message = document.forms["nameForm"].querySelector("textarea").value;
+        
+        const data = {
+            nama : nama,
+            email : email,
+            message : message
+        };
+
+        let listData = JSON.parse(localStorage.getItem("pesan")) || [];
+        listData.push(data);
+        localStorage.setItem("pesan", JSON.stringify(listData));
+
+        document.forms["nameForm"].reset();
+    });
+ </script>
+    
+</body>
+</html>
